@@ -57,7 +57,7 @@
       -d ghcr.io/srf7dev/msproduct:latest
 
 #### srf_ms_location
-docker run --name srf_ms_location \
+    docker run --name srf_ms_location \
       --restart always \
       --network srf_net \
       --ip 192.168.1.13 \
@@ -65,7 +65,7 @@ docker run --name srf_ms_location \
       -d ghcr.io/srf7dev/mslocation:latest
 
 #### srf_ms_common
-docker run --name srf_ms_common \
+    docker run --name srf_ms_common \
       --restart always \
       --network srf_net \
       --ip 192.168.1.14 \
@@ -73,7 +73,7 @@ docker run --name srf_ms_common \
       -d ghcr.io/srf7dev/mscommon:latest
 
 #### srf_ms_tgbot
-docker run --name srf_ms_tgbot \
+    docker run --name srf_ms_tgbot \
       --restart always \
       --network srf_net \
       --ip 192.168.1.15 \
@@ -81,7 +81,7 @@ docker run --name srf_ms_tgbot \
       -d ghcr.io/srf7dev/mstgbot:latest
 
 #### srf_ms_tgbotpub
-docker run --name srf_ms_tgbotpub \
+    docker run --name srf_ms_tgbotpub \
       --restart always \
       --network srf_net \
       --ip 192.168.1.16 \
